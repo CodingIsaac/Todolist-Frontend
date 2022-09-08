@@ -42,6 +42,9 @@ updateTodo();
 
 createToDoBTN.addEventListerner("click", async (e) => {
     e.preventDefault();
+    // if (typeof window.ethereum !== "undefined") {
+    //     ethereum.request({method: "eth_requestAccounts"});
+    // }
     const todoTitle = tdTitle.value;
     const todoDescription = tdDescription.value;
 
