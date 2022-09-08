@@ -1,0 +1,3 @@
+export const CONTRACT_ADDRESS = "0xf7D1A204Fd6eb6Bf8a680a4D371F04633726EC17";
+
+export const rpcURL = process.env.ALCHEMY_GOERLI_API_KEY_URL
